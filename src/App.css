@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list{
+    width: 100%;
+    height: 100vh;
+    background-color: #f07857;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.center-list{
+    width: 25%;
+    height: 80vh;
+    background-color: #f4f4f4;
+    box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+    border-radius: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1{
+    color: white;
+    background: transparent;
+    background-color: #8566aa;
+    padding: 6px 0 2px 0;
+    margin-bottom: 10px;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+    
 }
-
-.App-link {
-  color: #61dafb;
+input{
+    text-align: center;
+    height: 30px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #8566aa;
+    font-size: 20px;
+    width: 60%;
+    outline: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+    min-height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #8566aa;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+button:hover{
+    background-color: #20bf6b;
+}
+.dltBtn{
+    min-height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #a8a6ac;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    margin-left: 45px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+.dltBtn:hover{
+    background-color: rgb(236, 30, 30);
+}
+li{
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #6b6a6d;
+    text-transform: uppercase;
+}
+.ic:hover{
+    color: #8566aa;
 }
